@@ -9,7 +9,7 @@ const getHobbies = require('./hobbies');
 
 const getFullNameAndHobbies = () => {
   return {
-    ...getFullNameObject('Giuseppe', 'Lepore'),
+    fullName: getFullNameObject('Giuseppe', 'Lepore'),
     ...getHobbies('Music', 'Computer Science', 'Skateboarding')
   }
 }
